@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>funciones</title>
+    <link rel="stylesheet" href="../../CSS/ejercicios_f.css">
+  </head>
+  <body class="container">
+    <div class="caja1">
+      <h2>Notas promedio</h2>
+      <form>
+        <fieldset>
+          <label for="nota1">Ingrese Nota 1</label>
+          <input type="text" id="nota1" /><br /><br />
+          <label for="nota2">Ingrese Nota 2</label>
+          <input type="text" id="nota2" /><br /><br />
+          <label for="nota3">Ingrese Nota 3</label>
+          <input type="text" id="nota3" /><br /><br />
+          <button type="button" id="verificar_nota">
+            Verificar
+          </button>
+          <button onclick="contar_notas()" type="button" id="verificar_nota">
+            C o n t e o
+          </button>
+        </fieldset>
+      </form>
+      <p id="result1"></p>
+      <p id="result2"></p>
+    </div>
+    <div class="caja2">
+      <h2>Ejercicio palabra salir</h2>
+      <label for="palabra">Registrar </label>
+      <input type="text" id="palabra"placeholder="ingrese palabra"/><br /><br />
+      <button onclick="palabra_salir()" type="button" id="verificar_nota">
+        Ejecutar
+      </button>
+      <p id="result3"></p>
+    </div>
+    <div class="caja3">
+        <h2>Descuento en compras </h2><br>
+        <label for="descuento">Registrar </label>
+       <input type="text" id="descuento"placeholder="ingrese valor de compra"/><br /><br />
+       <button onclick="descuento()" type="button" id="verificar_nota">
+        Pagar
+       </button><br><br>
+       <p id="result4"></p>
+    </div>
+    <div class="caja4">
+        <h2>Numero Mayor</h2><br><br>
+        <label for="num1">Ingrese Numero 1</label>
+        <input type="text" id="num1" placeholder="ingrese  numero" /><br /><br />
+
+        <label for="num2">Ingrese Numero 2</label>
+        <input type="text" id="num2" placeholder="ingrese  numero" /><br /><br />
+
+        <label for="num3">Ingrese Numero 3</label>
+        <input type="text" id="num3" placeholder="ingrese  numero" /><br /><br />
+             
+       <button onclick="numeros()" type="button" id="verificar_nota">
+        Ejecutar
+       </button><br><br>
+       <p id="result5"></p>
+    </div>
+
+    <script type="module" src="../../JS/MODULOS/ejercicios.js"></script>
+  </body>
+</html>

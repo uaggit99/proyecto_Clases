@@ -1,0 +1,16 @@
+#mimensaje{
+    color:blue;
+    font-size: 20px;
+
+}
+button{
+    background-color: aquamarine;
+    color: blue;
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+body{
+    height: 2000px;
+    margin:0;
+}

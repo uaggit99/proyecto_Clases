@@ -1,0 +1,9 @@
+.caja {
+    margin: 20px;
+    width: 100%;
+    height: auto;
+    background-color: #bcd5e0;
+    color: rgb(15, 17, 117);
+    display: block;
+
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>While con 'salir'</title>
+</head>
+<body>
+  <h2>Escribe algo. Escribe 'salir' para terminar</h2>
+  <input type="text" id="entrada" placeholder="Escribe aquí">
+  <button onclick="verificarEntrada()">Enviar</button>
+  <p id="resultado"></p>
+
+  <script>
+    let activo = true;
+
+    function verificarEntrada() {
+      while (activo) {
+        const input = document.getElementById("entrada").value.toLowerCase();
+        if (input === "salir") {
+          document.getElementById("resultado").innerText = "Programa finalizado.";
+          activo = false;
+        } else {
+          document.getElementById("resultado").innerText = `Recibido: ${input}. Escribe 'salir' para terminar.`;
+          break; // Evita que el ciclo continúe sin nueva entrada
+        }
+      }
+    }
+  </script>
+</body>
+</html>

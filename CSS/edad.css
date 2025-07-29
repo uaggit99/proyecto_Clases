@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(143, 231, 202);
+}
+
+form label{
+    color: blue;
+    font-size: medium;
+    font-weight: bold;
+}

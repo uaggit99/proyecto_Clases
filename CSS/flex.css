@@ -1,0 +1,25 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    border: 2px solid #8b2424;
+    flex-basis: 300px;
+    flex-wrap: wrap;
+    
+
+
+}
+.elemento{
+    flex-basis: auto;
+    height: auto;
+    width: 150px;
+    
+    background-color: lightblue;
+    padding: 20px;
+    border: 1px solid blue 
+    
+   
+
+}

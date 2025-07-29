@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 250px;
+    background: #9fc3e6;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    border: 1px solid red;
+
+}
+
+.hijo {
+    flex-basis: 270px;
+    border: 2px solid blue;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(176, 240, 240);
+    color:black;
+    justify-content: flex-end;
+
+
+}

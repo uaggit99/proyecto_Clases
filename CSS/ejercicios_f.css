@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    min-height: 100%;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:20px;
+}
+input{
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border-style: none;
+    border-color: cadetblue;
+}
+
+button{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 15px;
+    background-color: rgb(131, 162, 194);
+    border:1px solid white;
+    border-radius: 8px;
+    color:darkblue
+    
+}
+button:hover{
+    background-color: rgb(106, 202, 77);
+}
+.caja1{
+    grid-area: caja1;
+    background-color: #d49ab5;
+
+}
+
+.caja2 {
+    grid-area: caja2;
+    background-color: #afd6af;
+
+}
+
+.caja3{
+    grid-area: caja3;
+    background-color: #77a1ad;
+
+}
+
+.caja4{
+    grid-area: caja4;
+    background-color: #9c545e;
+
+}
+
+.container>* {
+    box-shadow: -1px 1px 7px 0 rgba(186, 96, 189, 0.75);
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+
+}
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template:
+        "caja1 caja2" 600px
+        "caja3  caja4" 600px /
+        600px 600px
+    ;
+}
+
+
+

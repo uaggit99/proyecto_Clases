@@ -1,0 +1,10 @@
+nav .color1{
+    color:blue;
+}
+nav .color2{
+    color:blueviolet;
+}
+
+nav :hover{
+    color: aqua;
+}
