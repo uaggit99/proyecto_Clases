@@ -1,5 +1,5 @@
-document.getElementById("verificarM").addEventListener("click", () => {
-  event.preventDefault();
+document.getElementById("verificarM").addEventListener("click", function() {
+
   let a = parseFloat(document.getElementById("n1").value.trim());
   let b = parseFloat(document.getElementById("n2").value.trim());
   let c = parseFloat(document.getElementById("n3").value.trim());

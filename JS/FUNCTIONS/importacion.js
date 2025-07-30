@@ -11,7 +11,12 @@ import heroes , {owner} from '../DATA/datos2.js'
 
  console.log(owner);
 
- const getHeroeById = (id) =>{
+ export const getHeroeById = (id) =>{
     return heroes.find((heroe) => heroe.id==id);
  }
-  console.log(getHeroeById(5));e
+  console.log(getHeroeById(5));
+
+  const getHeroesByOwner= (owner)=> heroes.filter((heroe)=> heroe.owner==owner);
+
+  console.log(getHeroesByOwner("DC"));
+  
