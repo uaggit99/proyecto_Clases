@@ -1,0 +1,36 @@
+body {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    padding: 20px;
+    background-color: rgb(117, 154, 223, .4);
+    border: 2px solid #25278a ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    
+
+}
+
+button {
+    color:blue;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: rgb(201, 193, 193);
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+
+h2 {
+    color: rgb(34, 97, 97);
+}
+
+label,
+#ciudades-lista {
+    font-family: Helvetica;
+    color: darkgreen
+}
